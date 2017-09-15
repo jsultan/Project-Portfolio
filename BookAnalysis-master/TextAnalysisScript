@@ -1,0 +1,82 @@
+library(dplyr)
+library(data.table)
+library(tidytext)
+library(tm)
+library(wordcloud)
+library(RColorBrewer)
+library(ggplot2)
+
+#Read book data
+book <- fread('~\\Statistics\\Projects\\Text Analysis\\Religous Books\\Quran Shakir.csv')
+
+create_wordcloud <- function(book,nTerms = 100) {
+  
+  #Preprocess data by creating and cleaning a corpus, then a Term-Document-Matrix
+    book_words <- book %>%
+                    VectorSource() %>%
+                      VCorpus() %>%
+                      tm_map(stripWhitespace) %>%
+                      tm_map(removePunctuation) %>%
+                      tm_map(content_transformer(tolower)) %>%
+                      tm_map(removeWords, c(stopwords("en"), stopwords("SMART"), user_stopwords)) %>%
+                      TermDocumentMatrix() %>%
+                      as.matrix() %>%
+                      rowSums() %>%
+                      sort(decreasing = TRUE)
+    
+    #Create data frame for input into wordcloud
+    book_freqs <- data.frame(term = names(book_words),num = book_words)
+    
+    #Assign color scheme
+    color <- brewer.pal(8, "Dark2")
+    color <- color[-(1:2)]
+    
+    colfunc<-colorRampPalette(c("red","springgreen","royalblue"))
+    col <- colfunc(nTerms)
+    
+    #Create wordcloud
+    wordcloud(book_freqs$term, book_freqs$num, rot.per = .2, use.r.layout = TRUE,
+              random.color = TRUE, random.order = FALSE ,colors=col,
+              max.words = nTerms)
+
+}
+
+create_hist <- function(book, numTerms = 10) {
+  
+  #Preprocess data by creating and cleaning a corpus, then a Term-Document-Matrix
+  book_words <- book %>%
+    VectorSource() %>%
+    VCorpus() %>%
+    tm_map(stripWhitespace) %>%
+    tm_map(removePunctuation) %>%
+    tm_map(content_transformer(tolower)) %>%
+    tm_map(removeWords, c(stopwords("en"), stopwords("SMART"), user_stopwords)) %>%
+    TermDocumentMatrix() %>%
+    as.matrix() %>%
+    rowSums() %>%
+    sort(decreasing = TRUE)
+  
+  #Create data frame for input into wordcloud
+  book_freqs <- data.frame(term = names(book_words),num = book_words)
+  
+  colfunc<-colorRampPalette(c("red","yellow","springgreen","royalblue"))
+  col <- colfunc(numTerms)
+  
+  #Create wordcloud
+  ggplot(head(book_freqs, numTerms), aes(x = reorder(term, num),y = num, fill = col)) + geom_bar(stat = 'identity') +
+    coord_flip() + xlab('Term') + ylab('Frequency') + scale_fill_identity() +
+    ggtitle("Top Used Terms") + theme_minimal() 
+  
+}
+
+#Add words to strip from wordcloud
+user_stopwords <- c("said", "surely", "shall", "will", "say",
+                    "certainly", "allahâs", "come", "unto", "thou","thy", "thee",
+                    "shalt","take", "things", "made", 'didnt')
+
+#Subset to islate column with text
+book <- book[,4]
+
+#Create wordcloud or histogram with dataframe and number of terms specified
+create_wordcloud(book, 100)
+create_hist(book, 15)
