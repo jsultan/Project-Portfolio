@@ -9,10 +9,10 @@ More stop words can be added through to the script to account of cultural or lin
 Here are the results from the three books:
 
 ## Old Testament 
-![]({{site.baseurl}}/Old Testament.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/BookAnalysis-master/Old%20Testament.png)
 
 ## New Testament 
-![]({{site.baseurl}}/New Testament.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/BookAnalysis-master/New%20Testament.png)
 
 ## Quran 
-![]({{site.baseurl}}/Quran.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/BookAnalysis-master/Quran.png)
