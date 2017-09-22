@@ -30,21 +30,21 @@ The dataset was found through Kaggle's open data repository, which is linked at 
 
 This will create a csv file which we will use in Python to train the SVM and NN. A quick EDA of these features with respect to gender can be seen here:
 
-![](https://github.com/jsultan/Voice-Classifier/blob/master/Figure_1.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/Artificial%20Neural%20Network%20Gender%20Voice%20Recognition/Figure_1.png)
 
-![](https://github.com/jsultan/Voice-Classifier/blob/master/Figure_2.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/Artificial%20Neural%20Network%20Gender%20Voice%20Recognition/Figure_2.png)
 
 There seems to be a large difference in averages and IQR's for almost all the features. Also, the dataset is balanced, with half the training sample voices male and the other female, so we will be using model accuracy as the metric to determine the best algorithm.
 
 Despite there only being 20 features , we can see that some features are highly correlated. We will do PCA to reduce the dimensions of the dataset in order to train the algorithms faster. We will see that halving the amount dimensions will still retain ~97% of the explained variance.
 
-![](https://github.com/jsultan/Voice-Classifier/blob/master/Figure_3.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/Artificial%20Neural%20Network%20Gender%20Voice%20Recognition/Figure_3.png)
 
-![](https://github.com/jsultan/Voice-Classifier/blob/master/PCA.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/Artificial%20Neural%20Network%20Gender%20Voice%20Recognition/PCA.png)
 
 All the algorithm’s hyperparameters were tuned using a ten-fold cross validation grid search. Scikit-Learn's GridSearchCV came in handy for this as we were able to test a wide variety of values for each algorithim. The final accuracies shown below were calculated using a holdoff test set that was split from the training set in the beginning. It was important to do so in order to ensure that the algorithms were not trained using any of the test data.  
 
-![](https://github.com/jsultan/Voice-Classifier/blob/master/Figure_5.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/Artificial%20Neural%20Network%20Gender%20Voice%20Recognition/Figure_5.png)
 
 The top results were in line with what I expected, with the radial kernel SVM and Neural network performing similarly. I was a bit surprised that the KNN algorithm out performed both the random forest and gradient boosted tree, however there is a wider variety of hyperparamters that can be tuned going forward. Overall I was very happy with >99% accuracy of the SVM and NN, so I went forward with testing new .WAV files against these classifiers.
 

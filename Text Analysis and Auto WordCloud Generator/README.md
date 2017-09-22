@@ -11,10 +11,10 @@ More stop words can be added through to the script to account of cultural or lin
 Here are the results from the three books:
 
 ## Old Testament 
-![](https://github.com/jsultan/Project-Portfolio/blob/master/BookAnalysis-master/Old%20Testament.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/Text%20Analysis%20and%20Auto%20WordCloud%20Generator/Old%20Testament.png)
 
 ## New Testament 
-![](https://github.com/jsultan/Project-Portfolio/blob/master/BookAnalysis-master/New%20Testament.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/Text%20Analysis%20and%20Auto%20WordCloud%20Generator/New%20Testament.png)
 
 ## Quran 
-![](https://github.com/jsultan/Project-Portfolio/blob/master/BookAnalysis-master/Quran.png)
+![](https://github.com/jsultan/Project-Portfolio/blob/master/Text%20Analysis%20and%20Auto%20WordCloud%20Generator/Quran.png)
