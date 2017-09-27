@@ -33,6 +33,10 @@ This Jupyter notebook will analyze different PCA methods as well as how boundari
 
 This voice classification repository will train eight machine learning algorithms, ranging from K-Nearest Neighbors to Feed Forward Neural Networks, in order classify a voice as being male or female. After these algorithms are trained, any .WAV file can be analyzed and tested on to determine if the voice is male or female.
 
+<p align="center">
+<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Artificial%20Neural%20Network%20Gender%20Voice%20Recognition/Figure_5.png" width="500" align = "center" >
+</p>
+
 ### Recognizing Cats and Dogs using a Convolutional Neural Network
 [Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Convolutional%20Neural%20Net%20-%20Dog%20vs%20Cat%20Recognition/CatsAndDogs.ipynb)
 
