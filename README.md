@@ -67,7 +67,7 @@ This project was one of the first I undertook to further my understand of R, as 
 This script creates some user defined functions which form word clouds and histograms of the most used words in any file. In this case, I used the function on the three main canonical literature pieces of the Abrahamic faiths (Old Testament, New Testament, and Quran)
 
 
-<p align="left">
+<p align="center">
 <img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Text%20Analysis%20and%20Auto%20WordCloud%20Generator/New%20Testament.png" width="300" align = "center" >
 
 
