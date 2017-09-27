@@ -22,7 +22,7 @@ This script has gotten me to the top 20% of the Kaggle competition, and the Jupy
 
 This Jupyter notebook will analyze different PCA methods as well as how boundaries are created by different types of classifiers on a dataset describing cancerous tumors. This readMe will be kept short as the notebook goes into further detail. Enjoy!
 
-<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Visualizing%20Classifier%20Boundaries%20using%20Kernal%20PCA/KernelPCA.png" width="500" class = "centered" >
+<img class = "centered" src = "https://github.com/jsultan/Project-Portfolio/blob/master/Visualizing%20Classifier%20Boundaries%20using%20Kernal%20PCA/KernelPCA.png" width="500"  >
 
 ## Deep Learning
 
