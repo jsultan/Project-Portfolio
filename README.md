@@ -36,7 +36,7 @@ This voice classification repository will train eight machine learning algorithm
 ### Recognizing Cats and Dogs using a Convolutional Neural Network
 [Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Convolutional%20Neural%20Net%20-%20Dog%20vs%20Cat%20Recognition/CatsAndDogs.ipynb)
 
-The aim of this notebook to is train a CNN to detect if a picture contains a cat or a dog using Keras with a Tensorflow backend. This is one of my first forays into CNN's so this project was intented for me to gain a better understanding of preprocessing, building, and tuning, a convolutional neural network. The data is organized into 8000 pictures evenly split between cats and dogs which is used to train the CNN, and an additional 2000 pictures to use as a validation set. The images are colored, meaning that the input data will have
+The aim of this notebook to is train a CNN to detect if a picture contains a cat or a dog using Keras with a Tensorflow backend. This is one of my first forays into CNN's so this project was intended for me to gain a better understanding of preprocessing, building, and tuning, a convolutional neural network. The data is organized into 8000 pictures evenly split between cats and dogs which is used to train the CNN, and an additional 2000 pictures to use as a validation set. 
 
 ### Classifying Handwritten Numbers	using a Convolutional Neural Network
 [Project Overview](https://github.com/jsultan/Project-Portfolio/tree/master/Convolutional%20Neural%20Net%20-%20Classifying%20Handwritten%20Numbers)
@@ -57,10 +57,3 @@ In this Jupyter notebook, we will carry out some natural language processing on 
 This project was one of the first I undertook to further my understand of R, as well as understanding basic text analysis. 
 
 This script creates some user defined functions which form word clouds and histograms of the most used words in any file. In this case, I used the function on the three main canonical literature pieces of the Abrahamic faiths (Old Testament, New Testament, and Quran)
-
-
-
-
-
-
-
