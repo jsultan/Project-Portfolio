@@ -65,3 +65,12 @@ In this Jupyter notebook, we will carry out some natural language processing on 
 This project was one of the first I undertook to further my understand of R, as well as understanding basic text analysis. 
 
 This script creates some user defined functions which form word clouds and histograms of the most used words in any file. In this case, I used the function on the three main canonical literature pieces of the Abrahamic faiths (Old Testament, New Testament, and Quran)
+
+
+<p align="left">
+<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Text%20Analysis%20and%20Auto%20WordCloud%20Generator/New%20Testament.png" width="500" align = "center" >
+</p>
+<p align="center">
+<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Text%20Analysis%20and%20Auto%20WordCloud%20Generator/Old%20Testament.png" width="500" align = "center" >
+</p>
+
