@@ -9,7 +9,7 @@ Each project has either a ReadMe which describes the project further or is a Jup
 If you would like to reach out to me, my email is jsultan100@gmail.com , I hope you enjoy my portfolio!
 
 ## Classification and Regression
-======
+------
 ### Model Stacking with Regularized Linear Regression and Tree Methods
 [Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Regularized%20Linear%20Regression%20and%20Model%20Stacking/Ames_Housing.ipynb)
 
@@ -27,7 +27,7 @@ This Jupyter notebook will analyze different PCA methods as well as how boundari
 </p>
 
 ## Deep Learning
-======
+------
 ### Artificial Neural Network Gender Voice Recognition
 [Project Overview](https://github.com/jsultan/Project-Portfolio/tree/master/Artificial%20Neural%20Network%20Gender%20Voice%20Recognition)
 
@@ -44,7 +44,7 @@ The aim of this notebook to is train a CNN to detect if a picture contains a cat
 This script creates a convolution neural network in R for the MNIST dataset (currently a competition in kaggle). This dataset contains 28x28 pixel uploaded greyscale images of handwritten numbers ranging from 0 to 1, with each pixel value ranging from 0 to 255. Each number has minor which the CNN attempts to learn and then recognize on the test dataset.
 
 ## Natural Language Processing
-======
+------
 ### Classifying User Consumer Satisfaction Based on Resturant Reviews
 [Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/NLP%20-%20Classifying%20Restaurant%20Reviews/NLP%20for%20Restaurant%20Reviews.ipynb)
 
