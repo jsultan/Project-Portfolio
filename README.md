@@ -39,7 +39,7 @@ This voice classification repository will train eight machine learning algorithm
 The aim of this notebook to is train a CNN to detect if a picture contains a cat or a dog using Keras with a Tensorflow backend. This is one of my first forays into CNN's so this project was intended for me to gain a better understanding of preprocessing, building, and tuning, a convolutional neural network. The data is organized into 8000 pictures evenly split between cats and dogs which is used to train the CNN, and an additional 2000 pictures to use as a validation set. 
 
 <p align="center">
-<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Convolutional%20Neural%20Net%20-%20Dog%20vs%20Cat%20Recognition/CatsAndDogs.ipynb" width="500" align = "center" >
+<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Convolutional%20Neural%20Net%20-%20Dog%20vs%20Cat%20Recognition/catdog.png" width="500" align = "center" >
 </p>
 
 ### Classifying Handwritten Numbers	using a Convolutional Neural Network
