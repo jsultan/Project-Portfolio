@@ -17,6 +17,9 @@ This project will attempt to predict housing prices in Ames, Iowa by stacking re
 
 This script has gotten me to the top 20% of the Kaggle competition, and the Jupyter notebook will go more into depth how I achieved this score.
 
+<p align="center">
+<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Regularized%20Linear%20Regression%20and%20Model%20Stacking/saleprice.png" width="300" align = "center" >
+
 ### Classifier Boundary Visualizations Using Kernel PCA
 [Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Visualizing%20Classifier%20Boundaries%20using%20Kernal%20PCA/cancer.ipynb)
 
