@@ -68,8 +68,6 @@ This script creates some user defined functions which form word clouds and histo
 
 
 <p align="left">
-<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Text%20Analysis%20and%20Auto%20WordCloud%20Generator/New%20Testament.png" width="500" align = "center" >
-<p align="center">
-<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Text%20Analysis%20and%20Auto%20WordCloud%20Generator/Old%20Testament.png" width="500" align = "center" >
-</p>
+<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Text%20Analysis%20and%20Auto%20WordCloud%20Generator/New%20Testament.png" width="300" align = "center" >
+
 
