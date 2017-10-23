@@ -8,7 +8,7 @@ Each project has either a ReadMe which describes the project further or is a Jup
 
 If you would like to reach out to me, my email is jsultan100@gmail.com , I hope you enjoy my portfolio!
 
-## **Classification and Regression**
+## **Classification, Regression, and Unsupervised Learning**
 
 ### Model Stacking with Regularized Linear Regression and Tree Methods
 [Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Regularized%20Linear%20Regression%20and%20Model%20Stacking/Ames_Housing.ipynb)
@@ -20,14 +20,6 @@ This script has gotten me to the top 20% of the Kaggle competition, and the Jupy
 <p align="center">
 <img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Regularized%20Linear%20Regression%20and%20Model%20Stacking/saleprice.png" width="300" align = "center" >
 
-### Classifier Boundary Visualizations Using Kernel PCA
-[Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Visualizing%20Classifier%20Boundaries%20using%20Kernal%20PCA/cancer.ipynb)
-
-This Jupyter notebook will analyze different PCA methods as well as how boundaries are created by different types of classifiers on a dataset describing cancerous tumors. This readMe will be kept short as the notebook goes into further detail. Enjoy!
-
-<p align="center">
-<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Visualizing%20Classifier%20Boundaries%20using%20Kernal%20PCA/KernelPCA.png" width="500" align = "center" >
-</p>
 
 ### Ensemble Leaning for Greater Model Performance
 [Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Ensemble%20Leaning%20for%20Greater%20Model%20Performance/Ensemble%20Leaning%20for%20Greater%20Model%20Performance.ipynb)
@@ -38,6 +30,24 @@ In this notebook we will set out to increase our model performance by stacking m
 <img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Ensemble%20Leaning%20for%20Greater%20Model%20Performance/heatmap.png" width="500" align = "center" >
 </p>
 
+### Visualization of High Dimensional Datasets using t-Distributed Stochastic Neighbor Embedding
+[Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/t-SNE%20Viz/t-SNE%20Visualization.ipynb)
+
+In this notebook we aim to use the technique known as t-Distributed Stochastic Neighbor Embedding (t-SNE) in order to visualize high dimensional data. This technique created by Geoffrey Hinton and Laurens van der Maaten is a nonlinear dimensionality reduction method which focuses on mapping high dimensional data into two dimensions, which can then be seen through scatterplots. As opposed to PCA, whose objective function determines the linear combination which maximizes overall variance of the dataset, t-SNE focuses to preserve the local distances of the high-dimensional data in some mapping to low-dimensional data.
+
+<p>
+<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/t-SNE%20Viz/pic1.png" width="250"/><img src = "https://github.com/jsultan/Project-Portfolio/blob/master/t-SNE%20Viz/pic2.png" width="250"/><img src = "https://github.com/jsultan/Project-Portfolio/blob/master/t-SNE%20Viz/pic3.png" width="250"/>
+</p>
+
+
+### Classifier Boundary Visualizations Using Kernel PCA
+[Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Visualizing%20Classifier%20Boundaries%20using%20Kernal%20PCA/cancer.ipynb)
+
+This Jupyter notebook will analyze different PCA methods as well as how boundaries are created by different types of classifiers on a dataset describing cancerous tumors. This readMe will be kept short as the notebook goes into further detail. Enjoy!
+
+<p align="center">
+<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Visualizing%20Classifier%20Boundaries%20using%20Kernal%20PCA/KernelPCA.png" width="500" align = "center" >
+</p>
 
 ## **Deep Learning**
 
