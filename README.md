@@ -36,7 +36,7 @@ In this notebook we will set out to increase our model performance by stacking m
 In this notebook we aim to use the technique known as t-Distributed Stochastic Neighbor Embedding (t-SNE) in order to visualize high dimensional data. This technique created by Geoffrey Hinton and Laurens van der Maaten is a nonlinear dimensionality reduction method which focuses on mapping high dimensional data into two dimensions, which can then be seen through scatterplots. As opposed to PCA, whose objective function determines the linear combination which maximizes overall variance of the dataset, t-SNE focuses to preserve the local distances of the high-dimensional data in some mapping to low-dimensional data.
 
 <p align="center">
-<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/t-SNE%20Viz/pic1.png" width="500"/><img src = "https://github.com/jsultan/Project-Portfolio/blob/master/t-SNE%20Viz/pic2.png" width="500"/><img src = "https://github.com/jsultan/Project-Portfolio/blob/master/t-SNE%20Viz/pic3.png" width="500"/>
+<img src = "https://github.com/jsultan/Project-Portfolio/blob/master/t-SNE%20Viz/pic1.png" width="750"/><img src = "https://github.com/jsultan/Project-Portfolio/blob/master/t-SNE%20Viz/pic3.png" width="750"/>
 </p>
 
 
