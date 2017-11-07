@@ -10,7 +10,7 @@ If you would like to reach out to me, my email is jsultan100@gmail.com , I hope 
 
 ## **Classification, Regression, and Unsupervised Learning**
 
-### Housing Price Prediction with Penalized Linear Regression and Tree Methods
+### Housing Price Prediction with Penalized Regression and Tree Methods
 [Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Regularized%20Linear%20Regression%20and%20Model%20Stacking/Ames_Housing.ipynb)
 
 This project will attempt to predict housing prices in Ames, Iowa by stacking regularized linear methods (LASSO, Ridge, ElasticNet) as well as tree methods (RandomForest and gradient boosting) into one model.
