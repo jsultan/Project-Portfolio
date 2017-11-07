@@ -43,7 +43,7 @@ In this notebook we aim to use the technique known as t-Distributed Stochastic N
 ### Classifier Boundary Visualizations Using Kernel PCA
 [Jupyter Notebook](https://github.com/jsultan/Project-Portfolio/blob/master/Visualizing%20Classifier%20Boundaries%20using%20Kernal%20PCA/cancer.ipynb)
 
-This Jupyter notebook will analyze different PCA methods as well as how boundaries are created by different types of classifiers on a dataset describing cancerous tumors. This readMe will be kept short as the notebook goes into further detail. Enjoy!
+This Jupyter notebook will analyze different PCA methods as well as how boundaries are created by different types of classifiers on a dataset describing cancerous tumors. A combination of both parametric and non-parametric methods will be used including: Logistic Regression, Naieve Bayes, K-Nearest Neighbor, Random Forest, and Support Vector Machines (using three different kernels)
 
 <p align="center">
 <img src = "https://github.com/jsultan/Project-Portfolio/blob/master/Visualizing%20Classifier%20Boundaries%20using%20Kernal%20PCA/KernelPCA.png" width="500" align = "center" >
